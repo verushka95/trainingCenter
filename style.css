@@ -1,0 +1,252 @@
+/*
+Theme Name: Training Center
+Author: Vera
+Version: 1.1
+*/
+.main{
+    padding-top: 45px;
+    margin-top: -45px;
+}
+.content{
+    margin: 85px 0;
+}
+.content ul{
+    padding-inline-start: 15px;
+    font-size: 18px;
+}
+.content li {
+    list-style: initial;
+    display: list-item;
+    line-height: 36px;
+    color: #696969;
+}
+.content .title{
+    font-size: 22px;
+    text-transform: initial;
+    text-align: left;
+    margin-top: 0;
+}
+.content .title:after{
+    display: none;
+}
+section.info{
+    margin-top: 70px;
+}
+section.info .row{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D7D7D7;
+}
+.info__block{
+    line-height: 32px;
+    margin-right: 80px;
+}
+.info__block .info-title{
+    text-transform: uppercase;
+    color: rgba(232, 41, 65, 0.6);
+}
+.info__block .info-descr{
+    font-weight: 600;
+    font-size: 20px;
+}
+.program.program_prof {
+    background: #fff;
+}
+.program.program_prof .title{
+    margin-top: 129px;
+    margin-bottom: 37px;
+    text-transform: initial;
+    font-size: 26px;
+    padding-bottom: 0;
+    text-align: left;
+}
+.program.program_prof .title:after{
+    display: none;
+}
+.program.program_prof .program__item{
+    margin-bottom: 60px;
+}
+.program.program_prof .program__item .item{
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 0px 3px 40px rgba(85, 72, 86, 0.06);
+}
+.program.program_prof .program__item li {
+    font-weight: normal;
+    font-size: 18px;
+    color: #555555;
+    padding: 14px 53px 10px 56px;
+}
+.program.program_prof .program__item li:before{
+    font-size: 18px;
+    font-weight: bold;
+}
+.program.program_prof .program__item li:after{
+    width: 12px;
+    height: 12px;
+    border-color:rgba(232, 41, 65, 0.6);
+    border-width: 2px;
+}
+.whatGet{
+    margin-top: 140px;
+    margin-bottom: 165px;
+    font-family: "Oswald";
+}
+.whatGet .title{
+    margin-top: 0;
+    margin-bottom: 85px;
+}
+.whatGet__div{
+    box-shadow: 0px 3px 40px rgba(85, 72, 86, 0.1);
+    height: 100%;
+    
+}
+
+.whatGet__div_box1 .title{
+    background: url(./img/box-1.png) no-repeat;
+}
+.whatGet__div_box2 .title{
+    background: url(./img/box-2.png) no-repeat;
+}
+.whatGet__div .title{
+    height: 180px;
+    line-height: 180px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.whatGet__div .title:after{
+    display: none;
+}
+.whatGet__div .list{
+   color: #696969;
+   font-family: "OpenSans";
+   padding: 0 73px 62px;
+    margin: 0;
+}
+.whatGet__div .list li{
+    display: list-item;
+    list-style: initial;
+    line-height: 32px;
+}
+.format .descr__title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
+.speciality__items a{
+    color: #fff;
+}
+.speciality__items a:hover{
+    color: #fff;
+}
+#navbar{
+    margin: 15px;
+}
+.navbar-nav{
+    text-align: center;
+}
+.navbar-nav li{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.header__arrow{
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 16px);
+    border: 2px solid #fff;
+    width: 32px;
+    height: 32px;
+    border-left: 0;
+    border-top: 0;
+    transform: rotate(45deg);
+}
+.footer-menu{
+    flex-wrap: wrap;
+}
+.footer-menu li{
+    flex-basis: 120px;
+    margin-right: 0;
+}
+
+/* Модальное окно */
+.modal-body h4{
+    text-align: center;
+}
+.modal-body form{
+    text-align: center;
+    margin: 30px 0;
+}
+.modal-body input{
+    border: 1px solid #333;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+.modal-body .button{
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 30px;
+    border: 0;
+}
+/* шапка */
+.header__top{
+    background-color: white;
+}
+.header.fixed{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+/* кнопка наверх */
+#button-up{
+    display: none;	
+    opacity:0.9;
+    width: 70px;
+    height: 70px;
+    background-color: #16191E;
+    border-radius: 10px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;			
+    z-index: 111;
+    transition: .3s;
+    box-shadow: 0px 0px 20px #555
+  }
+  #button-up:hover{
+    cursor: pointer;
+    opacity: 1;
+    transition: .3s;
+  }
+  #button-up:after{
+      position: absolute;
+      content: '';
+      width: 0;
+      height: 0;
+      border: 18px solid transparent;
+      border-bottom-color: white;
+      border-top: 0;
+      left: calc(50% - 18px);
+      top: calc(50% - 9px);
+  }
+ 
+  .breadcrumbs{
+      margin-top: 20px;
+      font-size: 18px;
+  }
+  .reviews__slider{
+      margin: 128px auto 0 auto;
+  }
+  .reviews__slider .student .foto {
+    width: 102px;
+    height: 102px;
+    border-radius: 51px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (max-width: 575px){
+    .info__block{width: 100%; margin-bottom: 20px; margin-right: 0;}
+}

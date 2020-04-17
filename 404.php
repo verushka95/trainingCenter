@@ -1,0 +1,19 @@
+<?php
+get_header();
+?>
+
+<main class="main">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h1>Страница не найдена</h1>
+			</div>
+		</div>
+	</div>
+
+</main><!-- #site-content -->
+
+
+<?php
+get_footer();
